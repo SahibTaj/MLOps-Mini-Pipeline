@@ -1,0 +1,26 @@
+2026-02-20 11:10:20,095 - INFO - Job started
+2026-02-20 11:15:10,988 - INFO - Job started
+2026-02-20 11:15:11,355 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 11:17:24,278 - INFO - Job started
+2026-02-20 11:17:24,286 - ERROR - Input file not found
+2026-02-20 13:39:46,343 - INFO - Job started
+2026-02-20 13:39:46,343 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 13:39:46,368 - INFO - Data loaded: 10000 rows
+2026-02-20 13:39:46,368 - INFO - Rolling mean calculated with window=5
+2026-02-20 13:39:46,371 - INFO - Signals generated
+2026-02-20 13:39:46,373 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
+2026-02-20 13:39:46,373 - INFO - Job completed successfully in 27ms
+2026-02-20 13:40:06,809 - INFO - Job started
+2026-02-20 13:40:07,096 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 13:40:07,120 - INFO - Data loaded: 10000 rows
+2026-02-20 13:40:07,120 - INFO - Rolling mean calculated with window=5
+2026-02-20 13:40:07,122 - INFO - Signals generated
+2026-02-20 13:40:07,122 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
+2026-02-20 13:40:07,122 - INFO - Job completed successfully in 313ms
+2026-02-20 14:43:17,634 - INFO - Job started
+2026-02-20 14:43:17,658 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 14:43:17,682 - INFO - Data loaded: 10000 rows
+2026-02-20 14:43:17,682 - INFO - Rolling mean calculated with window=5
+2026-02-20 14:43:17,684 - INFO - Signals generated
+2026-02-20 14:43:17,684 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
+2026-02-20 14:43:17,685 - INFO - Job completed successfully in 50ms
