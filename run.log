@@ -24,3 +24,10 @@
 2026-02-20 14:43:17,684 - INFO - Signals generated
 2026-02-20 14:43:17,684 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
 2026-02-20 14:43:17,685 - INFO - Job completed successfully in 50ms
+2026-02-26 21:09:14,847 - INFO - Job started
+2026-02-26 21:09:14,864 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 21:09:14,940 - INFO - Data loaded: 10000 rows
+2026-02-26 21:09:14,940 - INFO - Rolling mean calculated with window=5
+2026-02-26 21:09:14,946 - INFO - Signals generated
+2026-02-26 21:09:14,948 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
+2026-02-26 21:09:14,948 - INFO - Job completed successfully in 98ms

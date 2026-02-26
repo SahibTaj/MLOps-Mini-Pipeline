@@ -57,14 +57,23 @@ def load_data(input_path):
     except Exception:
         raise ValueError("Invalid CSV format")
 
+    # Handle case where each row is wrapped in quotes (single-column CSV)
+    if len(df.columns) == 1:
+        df = pd.read_csv(input_path, header=None)
+        df = df[0].str.split(",", expand=True)
+        df.columns = df.iloc[0]
+        df = df.drop(0).reset_index(drop=True)
+
     if df.empty:
         raise ValueError("CSV file is empty")
 
     if "close" not in df.columns:
         raise ValueError("Missing required column: close")
 
-    return df
+    # ensure numeric
+    df["close"] = pd.to_numeric(df["close"], errors="coerce")
 
+    return df
 
 # ---------------- Processing ---------------- #
 def generate_signals(df, window):
